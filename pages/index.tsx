@@ -25,8 +25,11 @@ const Home: NextPage = () => {
         <p className={styles.description}>A Farcaster native meme coin, for the culture.</p>
         <p className={styles.description}>
           Build with or use $points however you want. The contract is{" "}
-          <Link href='https://gist.github.com/iammatthias/918970d935911f04efca224692d6a4ee'>open source</Link> and{" "}
-          <Link href='https://etherscan.io/token/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F#code'>
+          <Link href='https://gist.github.com/iammatthias/918970d935911f04efca224692d6a4ee' target='_blank'>
+            open source
+          </Link>{" "}
+          and{" "}
+          <Link href='https://etherscan.io/token/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F#code' target='_blank'>
             verified on Etherscan
           </Link>
           .
@@ -39,14 +42,19 @@ const Home: NextPage = () => {
 
         <ul>
           <li>
-            random airdrop on <Link href='https://warpcast.com/~/invite-page/2728?id=0bb9e451'>Farcaster</Link>
+            random airdrop on{" "}
+            <Link href='https://warpcast.com/~/invite-page/2728?id=0bb9e451' target='_blank'>
+              Farcaster
+            </Link>
           </li>
           <li>gift from a $points holder</li>
           <li>buy them</li>
           <ul>
             <li>
               $points can be purchased here or{" "}
-              <Link href='https://etherscan.io/address/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F#writeContract#F3'>
+              <Link
+                href='https://etherscan.io/address/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F#writeContract#F3'
+                target='_blank'>
                 direct from the contract
               </Link>
             </li>
