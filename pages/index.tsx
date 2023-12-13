@@ -13,7 +13,10 @@ const Home: NextPage = () => {
       <Head>
         <title>$points</title>
         <meta content='farcaster native meme coin, for the culture' name='description' />
-        <link href='/favicon.ico' rel='icon' />
+        // og images
+        <meta property='og:title' content='$points' />
+        <meta property='og:description' content='farcaster native meme coin, for the culture' />
+        <meta property='og:image' content='/og.png' />
       </Head>
 
       <main className={styles.main}>
