@@ -68,7 +68,12 @@ const Home: NextPage = () => {
           </ul>
         </ul>
 
-        <h1>All tokens have been minted.</h1>
+        <h1>
+          <Link href='https://etherscan.io/tx/0x3eb38ebce80d0f6a82748134e168ce0bc8138f01bf0f2b64fb22457ef7b2388b'>
+            On December 14th, 2023 750,000,000 of the max supply was burned
+          </Link>{" "}
+          to reduce the token amount. All tokens have now been minted.
+        </h1>
 
         <p> pointstokeneth@gmail.com </p>
       </main>
