@@ -69,6 +69,8 @@ const Home: NextPage = () => {
         </ul>
 
         <h1>All tokens have been minted.</h1>
+
+        <p> pointstokeneth@gmail.com </p>
       </main>
     </div>
   );
