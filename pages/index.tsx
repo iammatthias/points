@@ -51,23 +51,24 @@ const Home: NextPage = () => {
           <li>buy them</li>
           <ul>
             <li>
-              $points can be purchased here or{" "}
+              $points can be purchased here,{" "}
               <Link
                 href='https://etherscan.io/address/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F#writeContract#F3'
                 target='_blank'>
                 direct from the contract
               </Link>
+              , or on{" "}
+              <Link
+                href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0xd7c1eb0fe4a30d3b2a846c04aa6300888f087a5f&use=V2'
+                target='_blank'>
+                Uniswap
+              </Link>
             </li>
             <li>$points are 0.0001Ξ for 100 tokens, and scales accordingly</li>
-            <li>$points are not (currently) listed on Uniswap or any other exchange</li>
           </ul>
         </ul>
 
-        <p>Connect your wallet to mint.</p>
-
-        <ConnectButton />
-
-        {isConnected && <MintTokensForm />}
+        <h1>All tokens have been minted.</h1>
       </main>
     </div>
   );
