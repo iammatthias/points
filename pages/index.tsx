@@ -38,36 +38,6 @@ const Home: NextPage = () => {
           There is a maximum supply of 1,000,000,000 $points. Once all the $points are minted, no more can be created.
         </p>
 
-        <h2>Want $points?</h2>
-
-        <ul>
-          <li>
-            random airdrop on{" "}
-            <Link href='https://warpcast.com/~/invite-page/2728?id=0bb9e451' target='_blank'>
-              Farcaster
-            </Link>
-          </li>
-          <li>gift from a $points holder</li>
-          <li>buy them</li>
-          <ul>
-            <li>
-              $points can be purchased here,{" "}
-              <Link
-                href='https://etherscan.io/address/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F#writeContract#F3'
-                target='_blank'>
-                direct from the contract
-              </Link>
-              , or on{" "}
-              <Link
-                href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0xd7c1eb0fe4a30d3b2a846c04aa6300888f087a5f&use=V2'
-                target='_blank'>
-                Uniswap
-              </Link>
-            </li>
-            <li>$points are 0.0001Ξ for 100 tokens, and scales accordingly</li>
-          </ul>
-        </ul>
-
         <h1>
           <Link href='https://etherscan.io/tx/0x3eb38ebce80d0f6a82748134e168ce0bc8138f01bf0f2b64fb22457ef7b2388b'>
             On December 14th, 2023 750,000,000 of the max supply was burned
