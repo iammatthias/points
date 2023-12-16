@@ -151,3 +151,12 @@ form button:disabled {
   border-color: #ccc;
   cursor: not-allowed;
 }
+
+.statement {
+  padding: 2rem;
+  background: #1c1c1c;
+}
+
+.statement p {
+  color: #fff;
+}

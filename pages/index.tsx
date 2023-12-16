@@ -22,20 +22,25 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>$points</h1>
 
-        <p className={styles.description}>A Farcaster native meme coin, for the culture.</p>
+        <div className='statement'>
+          <p>
+            The support that $points has received has been overwhelming. I’m glad the community has found enjoyment in
+            this, but I need to step away. I will not be working on or supporting $points.
+          </p>
+          <p>
+            There is still not a plan for the funds, but they will not be used to support the $points ecosystem. I will
+            decide what to do at my sole discretion.
+          </p>
+          <p>
+            <Link href='https://warpcast.com/iammatthias/0xb573f17a'>https://warpcast.com/iammatthias/0xb573f17a</Link>
+          </p>
+        </div>
         <p className={styles.description}>
           Build with or use $points however you want. The contract is{" "}
-          <Link href='https://gist.github.com/iammatthias/918970d935911f04efca224692d6a4ee' target='_blank'>
-            open source
-          </Link>{" "}
-          and{" "}
           <Link href='https://etherscan.io/token/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F#code' target='_blank'>
             verified on Etherscan
           </Link>
           .
-        </p>
-        <p className={styles.description}>
-          There is a maximum supply of 1,000,000,000 $points. Once all the $points are minted, no more can be created.
         </p>
 
         <h1>
@@ -44,8 +49,6 @@ const Home: NextPage = () => {
           </Link>{" "}
           to reduce the token amount. All tokens have now been minted.
         </h1>
-
-        <p> pointstokeneth@gmail.com </p>
       </main>
     </div>
   );
